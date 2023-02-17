@@ -3,7 +3,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 
-/* Additional styles */
 @import 'additional-styles/utility-patterns.css';
 @import 'additional-styles/range-slider.css';
 @import 'additional-styles/toggle-switch.css';
@@ -11,14 +10,12 @@
 
 @import 'tailwindcss/utilities';
 
-/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
     .rtl {
         direction: rtl;
     }
 }
 
-/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
 [x-cloak=""] {
     display: none;
 }
@@ -38,5 +35,5 @@
   
   ::-webkit-scrollbar-thumb {
     border-radius: 15px;
-    border: 10px solid #fff;
+    border: 10px solid #2b2c5e;
   }

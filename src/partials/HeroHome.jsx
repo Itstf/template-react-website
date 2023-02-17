@@ -37,10 +37,10 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              About TCC
+              OpenMind Connect
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              Escrever textão sobre a empresa do tcc OpenMindconnect
+            Uma empresa de tecnologia focada em ajudar seus projetos a crescer, fornecendo soluções e ferramentas inovadoras para suas operações e aumentar sua eficiência. Nos dedicamos a promover uma abordagem de mente aberta e colaborativa para o crescimento e sucesso dos negócios, ao mesmo tempo em que fornecemos a conectividade e os recursos necessários para te ajudar no sucesso!
             </p>
             {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -57,7 +57,7 @@ function HeroHome() {
           </div>
 
           {/* Hero image */}
-          <div>
+          {/* <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
               <img className="mx-auto" src={HeroImage} width="1024" height="504" alt="Hero" />
               <a
@@ -88,15 +88,15 @@ function HeroHome() {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
 
             {/* Modal */}
-            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
+            {/* <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
                 <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
               </div>
-            </Modal>
-          </div>
+            </Modal> */}
+          {/* </div> */}
         </div>
       </div>
     </section>

@@ -10,8 +10,8 @@ function FeaturesBlocks() {
         <div className="py-12 md:py-20">
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Escrever sobre o que a empresa vende</h2>
-            <p className="text-xl text-gray-400">Textão sobre o que a empresa vende ao cliente.</p>
+            <h2 className="h2 mb-4">Serviços</h2>
+            <p className="text-xl text-gray-400">Oferecemos uma gama de serviços destinados a melhorar a comunicação, aumentar a visibilidade do cliente, automatizar processos e otimizar o desempenho de empresas para que elas possam crescer e alcançar novos patamares.</p>
           </div>
 
           {/* Items */}
@@ -35,8 +35,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-green-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-green-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Fornece-2</h4>
-              <p className="text-lg text-gray-400 text-center">Escrever o que a empresa fornece ao cliente (exemplo: ajuda a alavancar as vendas)</p>
+              <h4 className="h4 mb-2">Perfil único</h4>
+              <p className="text-lg text-gray-400 text-center">Montamos um perfil para sua empresa de acordo com suas ideias e expectativas.</p>
             </div>
 
             {/* 3rd item */}

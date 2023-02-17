@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '../images/favicon.png';
+import logo from '../images/openMind2.png';
 
 function Footer() {
   return (
@@ -16,9 +16,9 @@ function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                  <img src={logo} alt="" className='w-28'/>
+                  <img src={logo} alt="" className='w-36 hover:scale-110 duration-200 ease-in-out'/>
               </div>
-              <div className="text-gray-400">Textão sobre o significado da logo</div>
+              <div className="text-gray-400">Vamos transformar sua visão em realidade e conecta-lá ao mundo!</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -26,7 +26,7 @@ function Footer() {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Luiz Menezes</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Luiz Felipe</h6>
                 <ul>
                   <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">GitHub</Link>
